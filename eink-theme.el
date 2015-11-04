@@ -28,7 +28,7 @@
 
 ;;; Code:
 
-(deftheme eink
+(deftheme eink-light
   "My vim eink theme ported over to emacs. Still needs a fair
 amount of work, but this is the first pass.")
 
