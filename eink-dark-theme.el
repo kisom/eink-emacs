@@ -1,4 +1,4 @@
-;;; eink-light-theme.el --- Emacs theme with a light background.
+;;; eink-dark-theme.el --- Emacs theme with a dark background.
 
 ;; Copyright (C) 2015, K. Isom
 
@@ -28,29 +28,29 @@
 
 ;;; Code:
 
- (deftheme eink-light)
+ (deftheme eink-dark)
  (let ((class '((class color) (min-colors 89)))
-       (fg1 "#1c1c1c")
-       (fg2 "#2b2b2b")
-       (fg3 "#3a3a3a")
-       (fg4 "#4b4b4b")
-       (bg1 "#fffafa")
-       (bg2 "#e8e3e3")
-       (bg3 "#d1cdcd")
-       (bg4 "#bbb8b8")
-       (key2 "#313131")
-       (key3 "#1a1a1a")
-       (builtin "#1c1c1c")
-       (keyword "#1c1c1c")
-       (const   "#1c1c1c")
-       (comment "#7f7f7f")
-       (func    "#1c1c1c")
-       (str     "#1c1c1c")
-       (type    "#1c1c1c")
-       (var     "#1c1c1c")
+       (fg1 "#b3b3b3")
+       (fg2 "#a3a3a3")
+       (fg3 "#949494")
+       (fg4 "#858585")
+       (bg1 "#1d1f21")
+       (bg2 "#2c2e30")
+       (bg3 "#3b3d3f")
+       (bg4 "#4c4d4f")
+       (key2 "#bbbbbb")
+       (key3 "#9d9d9d")
+       (builtin "#b3b3b3")
+       (keyword "#b3b3b3")
+       (const   "#b3b3b3")
+       (comment "#696969")
+       (func    "#b3b3b3")
+       (str     "#b3b3b3")
+       (type    "#b3b3b3")
+       (var     "#b3b3b3")
        (warning "#cd2626"))
    (custom-theme-set-faces
-   'eink-light
+   'eink-dark
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -246,11 +246,11 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'eink-light)
+(provide-theme 'eink-dark)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; eink-light-theme.el ends here
+;;; eink-dark-theme.el ends here
 
