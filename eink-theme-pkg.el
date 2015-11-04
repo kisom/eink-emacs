@@ -1,1 +1,4 @@
-(define-package "eink-theme" "20151103" "EInk-inspired colour themes for Emacs." (quote nil))
+(define-package "eink-theme"
+  "1.0.0"
+  "EInk-inspired colour themes for Emacs."
+  (quote nil))

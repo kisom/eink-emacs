@@ -4,7 +4,7 @@
 
 ;; Author: K. Isom
 ;; https://git.kyleisom.net/style/eink-emacs
-;; Version: 0.2
+;; Version: 1.0.0
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 
