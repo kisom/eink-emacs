@@ -1,4 +1,4 @@
-;;; Eink-theme.el --- Emacs theme with a light background.
+;;; eink-theme.el --- Emacs theme with a light background.
 
 ;; Copyright (C) 2014 , K. Isom
 
@@ -53,7 +53,7 @@ amount of work, but this is the first pass.")
       (var     "#000000")
       (warning "#ff0000"))
   (custom-theme-set-faces
-   'eink
+   'eink-light
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
    `(font-lock-builtin-face ((,class (:foreground ,builtin))))
    `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -249,11 +249,10 @@ amount of work, but this is the first pass.")
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'eink)
+(provide-theme 'eink-light)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; eink-theme.el ends here
-
+;;; eink-light-theme.el ends here
